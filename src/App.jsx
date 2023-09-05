@@ -12,7 +12,10 @@ function App() {
       <Wrapper>
         <h1>Vite + React</h1>
         <div className="bg-blue-500">
-          <button onClick={() => setCount((count) => count + 1)}>
+          <button
+            className="bg-white rounded-md"
+            onClick={() => setCount((count) => count + 1)}
+          >
             count is {count}
           </button>
           <p>

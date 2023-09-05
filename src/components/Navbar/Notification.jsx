@@ -3,12 +3,12 @@ export const Notification = () => {
     <>
       <div className="flex px-3">
         <button className="">
-          <div className="rounded-full bg-slate-200 p-3">
+          <div className="rounded-full bg-slate-200 hover:bg-slate-100 p-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
-              className="text-blue-600"
+              className="text-blue-600 hover:text-blue-500"
               viewBox="0 0 512 512"
             >
               <path
