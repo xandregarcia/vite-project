@@ -1,7 +1,7 @@
 export const Notification = () => {
   return (
     <>
-      <div className="flex px-3">
+      <div className="flex px-3 lg:hidden">
         <button className="">
           <div className="rounded-full bg-slate-200 hover:bg-slate-100 p-3">
             <svg
