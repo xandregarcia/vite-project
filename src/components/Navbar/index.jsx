@@ -1,5 +1,5 @@
 // import React from "react";
-import viteLogo from "/vite.svg";
+import splogo from "/SP_LOGO.png";
 import { Notification } from "./Notification";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Dashboard from "./../../pages/Dashboard";
@@ -23,7 +23,7 @@ const Navigation = () => {
           {/* <nav className="flex bg-slate-100 justify-between h-24 border-b-2 border-slate-700 border-opacity-30">
         <div className="flex"> */}
           <div className="flex ">
-            <img src={viteLogo} className="logo" alt="Vite logo" />
+            <img src={splogo} className="logo" alt="SP logo" />
             <ul className="md:flex space-x-4 my-auto hidden">
               {/* <ul className="m-4 flex space-x-4 my-auto"> */}
               {navs_list.map((x) => (
