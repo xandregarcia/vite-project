@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 221.67 121">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #f7931e;
+        font-family: BaskOldFace, 'Baskerville Old Face';
+        font-size: 24px;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0" y1="60.5" x2="121" y2="60.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cce0f4"/>
+      <stop offset=".06" stop-color="#c2dcf2"/>
+      <stop offset=".17" stop-color="#a9d2ee"/>
+      <stop offset=".31" stop-color="#7fc2e7"/>
+      <stop offset=".46" stop-color="#46abdd"/>
+      <stop offset=".57" stop-color="#1e9cd7"/>
+      <stop offset=".87" stop-color="#0075be"/>
+      <stop offset=".99" stop-color="#005b97"/>
+    </linearGradient>
+  </defs>
+  <circle class="cls-1" cx="60.5" cy="60.5" r="60.5"/>
+  <text class="cls-2" transform="translate(124.87 52.07)"><tspan x="0" y="0">BRAND </tspan><tspan x="6.93" y="28.8">NAME</tspan></text>
+</svg>
