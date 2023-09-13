@@ -7,7 +7,7 @@ import Login from "../../pages/Login";
 import { LandingPage } from "../../pages/LandingPage/LandingPage";
 import PageNotFound from "../../pages/PageNotFound";
 import SignUp from "../../pages/SignUp";
-import Settings from "./settings";
+import Settings from "./Settings";
 // import { BrowserRouter, Route, Routes, Link } from "react-router-dom"; // Import necessary components from react-router-dom
 
 const Navigation = () => {
