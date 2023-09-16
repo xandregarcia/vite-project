@@ -36,10 +36,13 @@ const Settings = () => {
         </button>
 
         <div className={`dropdown-menu ${open ? "active" : "inactive"}`}>
-          <ul className="block inset-x-0 top-0 absolute shadow-xl bg-red-900 container space-between">
+          <ul className="dropdown-items grid grid-cols-1 gap-4 overflow-auto shadow-lg">
             {items.map((x) => {
               return (
-                <li key={x.id} className="hover:bg-blue-400 hover:text-white">
+                <li
+                  key={x.id}
+                  className="flex flex-row items-start rounded-lg bg-transparent p-2 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                >
                   <Link>{x.name}</Link>
                 </li>
               );
