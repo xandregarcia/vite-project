@@ -1,5 +1,5 @@
 import { Wrapper } from "../../components/Wrapper";
-
+import "./style.css";
 // import React from "react";
 export const LandingPage = () => {
 	return (
@@ -35,7 +35,7 @@ export const LandingPage = () => {
 									without resorting to custom CSS.
 								</p>
 							</div>
-							<div className="w-full md:w-1/2 px-4">
+							<div className="w-full md:w-1/2 px-4 fadeInRight">
 								<img
 									src="https://cdn.dribbble.com/users/2487395/screenshots/6311129/responsivedesign_2x.png"
 									alt="responsive"
