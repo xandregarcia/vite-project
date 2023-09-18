@@ -21,7 +21,7 @@ const Navigation = () => {
 
   return (
     <BrowserRouter>
-      <nav className="container border-b-2 border-slate-700 border-opacity-30 h-24 my-auto w-screen mx-auto flex justify-between items-center">
+      <nav className="container border-slate-700  h-24 my-auto w-screen mx-auto flex justify-between items-center">
         {/* <div className="container"> */}
         <div className="flex ">
           <img src={splogo} className="logo" alt="SP logo" />
