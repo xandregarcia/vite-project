@@ -1,28 +1,20 @@
 import { Wrapper } from "../components/Wrapper";
-import "./style.css";
+// import "./style.css";
+import Modal from "../components/Modal/Modal";
 import logo from "./../assets/logo-dummy.svg";
+import { useState } from "react";
 const Login = () => {
+  const [openModal, setOpen] = useState(false);
+
   return (
     <>
       <Wrapper>
-        <div className="min-h-screen flex items-center justify-center page ">
+        {openModal && <Modal onClose={setOpen} title="Data Privacy" />}
+        <div className="min-h-screen flex items-center justify-center">
+          {/* <div className="page"></div> */}
           <div className="container bg-white p-16 rounded shadow-2xl max-w-lg min-w-max">
             <div className="w-full items-center justify-center flex mb-6">
               <img src={logo} className="w-48 h-48" alt="logo" />
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
-                viewBox="0 0 32 32"
-              >
-                <path
-                  fill="currentColor"
-                  d="M11.42 8.29a1.25 1.25 0 0 0-1.13-.76h-4a.65.65 0 0 0-.55.25a.63.63 0 0 0 0 .62l2.73 4.73l-4.3 7.59a.6.6 0 0 0 0 .62a.58.58 0 0 0 .52.28h4a1.22 1.22 0 0 0 1.1-.78l4.36-7.71l-2.73-4.84Zm16.41-5.41a.65.65 0 0 0 0-.62a.61.61 0 0 0-.53-.26h-4.08a1.19 1.19 0 0 0-1.08.77s-8.7 15.43-9 15.93l5.74 10.53A1.26 1.26 0 0 0 20 30h4a.59.59 0 0 0 .54-.26a.62.62 0 0 0 0-.62l-5.69-10.4Z"
-                />
-              </svg> */}
-              {/* <h2 className="font-medium text-2xl ">
-                Committee Meeting / Hearing Scheduler System
-              </h2> */}
             </div>
             <h2 className="text-3xl font-bold mb-2 text-gray-800">Login</h2>
             <form action="" method="post" className="border-b-2 py-3">
@@ -89,18 +81,19 @@ const Login = () => {
                 </button>
               </div>
               <div className="justify-center mt-2 mb-3">
-                <a
-                  href="#"
+                <button
+                  type="button"
+                  onClick={() => {
+                    setOpen(true);
+                  }}
                   className="text-sm mx-2 underline text-gray-800 hover:text-teal-500 hover:underline"
                 >
                   Data Privacy
-                </a>
-                <a
-                  href="#"
-                  className="text-sm mx-2 underline text-gray-800 hover:text-teal-500 hover:underline"
-                >
+                </button>
+
+                <button className="text-sm mx-2 underline text-gray-800 hover:text-teal-500 hover:underline">
                   Contact Us
-                </a>
+                </button>
               </div>
             </form>
           </div>

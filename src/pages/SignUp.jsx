@@ -5,7 +5,7 @@ const SignUp = () => {
     <>
       <Wrapper>
         <div className="min-h-screen flex items-center justify-center ">
-          <div className="bg-white p-16 rounded shadow-2xl min-w-min">
+          <div className="container bg-white p-16 rounded shadow-2xl max-w-lg min-w-max">
             <div className="w-full items-center justify-center block mb-6">
               <button className="relative items-center justify-center bg-white p-2 rounded-md shadow-sm flexw-auto flex hover:bg-blue-300 hover:text-white ">
                 <span className=" px-2">
