@@ -26,3 +26,13 @@
   max-width: calc(-8px + 100vw);
   /* visibility: hidden; */
 }
+
+.darkmode {
+  right: 0px;
+  top: 50%;
+  position: fixed;
+  margin-top: -24px;
+  padding: 4px;
+  z-index: 1202;
+  border-radius: 24px 0px 20px 24px;
+}

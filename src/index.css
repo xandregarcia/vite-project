@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* @layer base {
+  :root {
+    --color-background: 175deg, 84%, 32%;
+    --color-content: 210deg, 40%, 98%;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --color-background: 210deg, 40%, 98%;
+      --color-content: 175deg, 84%, 32%;
+    }
+  }
+} */

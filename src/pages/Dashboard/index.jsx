@@ -5,7 +5,7 @@ const Dashboard = () => {
   return (
     <>
       <Wrapper>
-        <div className="px-6 pt-6 2xl:container">
+        <div className="container mx-auto px-6 pt-6 2xl:container">
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             <div className="md:col-span-2 lg:col-span-1">
               <div className="h-full py-8 px-6 space-y-6 rounded-xl border border-gray-200 bg-white">

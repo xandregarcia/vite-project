@@ -1,6 +1,6 @@
 import { Wrapper } from "../components/Wrapper";
 // import "./style.css";
-import Modal from "../components/Modal/Modal";
+import Modal from "../components/Modal/DP_Modal";
 import logo from "./../assets/logo-dummy.svg";
 import { useState } from "react";
 const Login = () => {
